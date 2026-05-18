@@ -58,6 +58,7 @@ def run_planner(origin: str, dest: str, start: str, end: str, budget: int):
         "start_date": start,
         "end_date": end,
         "budget_limit": budget,
+        "user_preferences": "",
         "weather_data": None,
         "transport_data": None,
         "activities_data": None,

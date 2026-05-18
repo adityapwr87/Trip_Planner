@@ -9,6 +9,7 @@ class PlannerState(TypedDict):
     start_date: str
     end_date: str
     budget_limit: int
+    user_preferences: str
     
     # Store partial results for context
     weather_data: Any

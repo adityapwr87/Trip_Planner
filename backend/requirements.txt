@@ -10,4 +10,7 @@ pymongo
 fastapi
 uvicorn
 jwt
+google-search-results
+PyJWT
+argon2-cffi
 
