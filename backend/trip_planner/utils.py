@@ -1,0 +1,36 @@
+CITY_IATA_MAPPING = {
+    "delhi": "DEL",
+    "mumbai": "BOM",
+    "bangalore": "BLR",
+    "chennai": "MAA",
+    "kolkata": "CCU",
+    "hyderabad": "HYD",
+    "pune": "PNQ",
+    "ahmedabad": "AMD",
+    "jaipur": "JAI",
+    "goa": "GOI",
+    "chandigarh": "IXC",
+    "lucknow": "LKO",
+    "amritsar": "ATQ",
+    "bhubaneswar": "BBI",
+    "coimbatore": "CJB",
+    "guwahati": "GAU",
+    "indore": "IDR",
+    "kochi": "COK",
+    "nagpur": "NAG",
+    "patna": "PAT",
+    "srinagar": "SXR",
+    "trivandrum": "TRV",
+    "varanasi": "VNS",
+    "paris":"CDG",
+    "austin":"AUS",
+    "newyork":"JFK",
+    "california":"LAX",
+    "bali":"DPS",
+    "dubai":"DXB",
+    "singapore":"SIN",
+}
+
+def get_iata_code(city: str) -> str:
+    """Returns the matching IATA code for a given city name, defaults to DEL if not found"""
+    return CITY_IATA_MAPPING.get(city.strip().lower(), "DEL")
