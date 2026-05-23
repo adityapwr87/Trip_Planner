@@ -13,4 +13,6 @@ jwt
 google-search-results
 PyJWT
 argon2-cffi
+passlib
+bcrypt
 
